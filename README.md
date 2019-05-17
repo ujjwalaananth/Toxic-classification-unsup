@@ -15,3 +15,12 @@ We use a simple prediction strategy based on our assumption. Within each cluster
 We attempt to refine prediction algorithm further by using distance weights to gauge likelihood of a label. We use Euclidean distance of training vectors within a cluster from the test vector input, to determine most likely label value of that test vector.
 
 To see results on insult/non-insult dataset, refer to .ipynb files named as -insult.
+
+## References:
+Andrew L. Maas, Raymond E. Daly, Peter T. Pham, Dan Huang, Andrew Y. Ng, and Christopher Potts. (2011). "Learning Word Vectors for Sentiment Analysis." The 49th Annual Meeting of the Association for Computational Linguistics (ACL 2011).
+
+Adolfo Guzman-Arenas, Alma-Delia Cuevas. “Clustering via centroids a bag of qualitative values and measuring its inconsistency”, Centro de Investigación en Computación (IPN) and Escuela Superior de Cómputo (IPN), México 
+
+Magnus Rosell. “Unsupervised learning: (Text) Clustering, Machine Learning for NLP” 
+
+“Bag of Words Meets Bags of Popcorn”, Kaggle tutorial competition on Word2Vec
