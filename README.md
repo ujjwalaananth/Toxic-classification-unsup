@@ -14,6 +14,4 @@ We use a simple prediction strategy based on our assumption. Within each cluster
 ### Method 2: 
 We attempt to refine prediction algorithm further by using distance weights to gauge likelihood of a label. We use Euclidean distance of training vectors within a cluster from the test vector input, to determine most likely label value of that test vector.
 
-
-
-
+To see results on insult/non-insult dataset, refer to .ipynb files named as -insult.
